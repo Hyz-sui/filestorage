@@ -1,0 +1,276 @@
+main.chatContent-3KubbW { /* チャットエリア */
+    background: black;
+    border-right: white dotted 1px;
+}
+.form-3gdLxP::before{ /* チャットエリアの上のグラデーション */
+    display: none;
+}
+.scrollableContainer-15eg7h{ /* 入力エリア */
+    background-color: black;
+    border: navy solid 2px;
+}
+form.form-3gdLxP {
+    border-top: white dotted 1px;
+}
+.channelTextArea-1FufC0.channelTextArea-1VQBuV {
+    padding-top: 20px;
+    background-color: black;
+}
+.placeholder-1rCBhr { /* 入力エリアのプレースホルダー */
+    color: transparent;
+}
+.placeholder-1rCBhr::before {
+    content: '> ...';
+    color: #ffffff78;
+}
+.wrapper-2vIMkT { /* メッセージのオプション */
+    border-radius: 0;
+    background: transparent;
+}
+.button-3bklZh.selected-69H4ua {
+    background: #ffffff40;
+}
+
+div#message-actions {
+    border-radius: 0;
+    background-color: black;
+    border: gray solid 1px;
+}
+
+.focused-3qFvc8 {
+    border-radius: 0;
+    border: gray solid 1px;
+}
+
+.colorDefault-CDqZdO.focused-3qFvc8 {
+    background: transparent;
+}
+
+.scroller-1bVxF5 {
+    background-color: black;
+}
+.auto-2K3UW5::-webkit-scrollbar-thumb, .auto-2K3UW5::-webkit-scrollbar-track { /* チャットエリアのスクロールバー */
+    border-radius: 0;
+    border: solid 0 transparent;
+    border-left: solid 5px transparent;
+}
+.auto-2K3UW5::-webkit-scrollbar-thumb{
+    background-color: transparent;
+    border: gray solid 1px;
+}
+.auto-2K3UW5::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+.content-2a4AW9 { /* 右のメンバーリスト */
+    background-color: black !important;
+}
+.container-2o3qEW {
+    background-color: black;
+}
+.members-3WRCEx.thin-31rlnD.scrollerBase-_bVAAt.fade-1R6FHN {
+    background-color: black;
+}
+.reaction-2A2y9y { /* リアクションアイコン */
+    border-radius: 0;
+    background: transparent;
+    border: solid 1px gray;
+}
+span.content-3spvdd { /* チャットエリアの日付区切 */
+    background: transparent;
+    color: white;
+    font-weight: normal;
+}
+.mention { /* メンションとかチャンネルリンクとか */
+    border-radius: 0;
+    background: transparent !important;
+    color: #2498fd !important;
+}
+div#channels { /* チャンネルリスト */
+    border-right: white dotted 1px;
+    background-color: black;
+}
+.container-YkUktl { /* 左下の自分の名前 */
+    background-color: black;
+    border-top: dotted white 1px;
+}
+.container-1-ERn5.clickable-vvKY2q { /* サイドバー */
+    background-color: black;
+    border-bottom: white dotted 1px;
+    border-right: white dotted 1px;
+}
+.sidebar-1tnWFu {
+    border-radius: 0 !important;
+}
+section.title-31SJ6t.container-ZMc96U.themed-Hp1KC_ { /* 上のチャンネル名 */
+    background-color: black;
+    border-bottom: white dotted 1px;
+    top: 1px;
+}
+h3.title-17SveM {
+    font-weight: bold;
+    color: cornflowerblue;
+}
+.theme-dark .children-3xh0VB:after { /* チャンネル名のとこの余計なグラデーション */
+    display: none;
+}
+.chat-2ZfjoI { /* 最背面 */
+    background-color: black;
+}
+.scroller-3X7KbA.none-2-_0dP.scrollerBase-_bVAAt { /* サーバーリスト */
+    background-color: black;
+    border-right: dotted white 1px;
+}
+.public-DraftEditorPlaceholder-inner { /* 検索 */
+    color: transparent;
+}
+.public-DraftEditorPlaceholder-inner::before {
+    content: 'Search: > ...';
+    color: gray;
+}
+.iconVisibility-vptxma.wrapper-NhbLHG:hover *{ /* チャンネル選択 */
+    background-color: transparent;
+}
+.iconVisibility-vptxma.wrapper-NhbLHG:hover .content-1gYQeQ{
+    border: gray solid 1px;
+}
+.content-1gYQeQ{
+    border-radius: 0;
+}
+.iconVisibility-vptxma.wrapper-NhbLHG:hover{
+    margin-top: -1px;
+    margin-bottom: -1px;
+}
+.iconVisibility-vptxma.wrapper-NhbLHG.modeSelected-3DmyhH .content-1gYQeQ *{ /* 現在のチャンネル */
+    color: black !important;
+}
+.iconVisibility-vptxma.wrapper-NhbLHG.modeSelected-3DmyhH .content-1gYQeQ{
+    background-color: white;
+}
+.automodMessage-265YwJ:before, .ephemeral-2nDdnn:before, .mentioned-Tre-dv:before, .replying-eZ7p5z:before { /* 特殊メッセージの左端のリボンを消す */
+    width: 0;
+}
+.mentioned-Tre-dv { /* 被メンション */
+    border-right: #ffa5008f solid 15px;
+    border-bottom: #ffa5008f solid 5px
+}
+.replying-eZ7p5z, .ephemeral-2nDdnn { /* 返信先，エフェメラル */
+    border-right: #0000ff8f solid 15px;
+    border-bottom: #0000ff8f solid 5px;
+}
+span.botText-1fD6Qk { /* ボットマーク */
+    font-size: 0 !important;
+}
+
+span.botText-1fD6Qk::after {content: 'b';font-size: 10px;line-height: 20px;}
+.title-31SJ6t svg { /* svgを白く 上のチャンネル名 */
+    color: white !important;
+}
+form.form-3gdLxP svg { /* 入力エリア */
+    color: white !important;
+}
+h1.name-3Uvkvr { /* 左上の現在のサーバー */
+    font-family: 'Lucida Console';
+    color: lime;
+    font-size: 80%;
+    font-weight: bold;
+}
+h1.name-3Uvkvr::before{
+    content: 'discord@'
+}
+h1.name-3Uvkvr::after{
+    content: ' ~';
+    color: yellow;
+}
+header.header-3OsQeK:hover {
+    background-color: white !important;
+}
+header.header-3OsQeK:hover h1, header.header-3OsQeK:hover h1::after{
+    color: black; 
+}
+header.header-3OsQeK:hover h1{
+    background-color: lime; 
+    margin-right: 10px
+}
+header.header-3OsQeK:hover h1::after{
+    background-color: yellow;  
+    margin-left: 10px; 
+    display: inline-block
+}
+.channelNotice-K4UfZY { /* 発生中のイベント */
+    background-color: black;
+    border-bottom: dotted white 1px;
+    border-right: dotted white 1px;
+    margin-left: 0;
+    margin-top: 0; 
+    margin-right: 0;
+    padding-top: 10px;
+}
+nav.container-1NXEtd {
+    background-color: black;
+}
+.channelNotice-K4UfZY button{
+    background-color: black !important; 
+    border-radius: 0; 
+    border: white solid 1px; 
+}
+.channelNotice-K4UfZY button:hover{
+    background-color: white !important; 
+    color: black; 
+}
+section.panels-3wFtMD { /* 左下の一帯 */
+    background-color: black;
+    border-top: white dotted 1px;
+    border-right: white dotted 1px;
+}
+
+button.button-1EGGcP {
+    background-color: transparent !important;
+    border-radius: 0;
+    border: white solid 1px;
+    font-size: 0%;
+}
+button.button-1EGGcP:hover{
+    background-color: white !important; 
+    color: black; 
+}
+.rtcConnectionStatus-c5A6Av.rtcConnectionQualityFine-3zZrSa * {
+    color: lime;
+}
+
+button.button-12Fmur.enabled-9OeuTA.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.grow-2sR_-F {
+    border-radius: 0; 
+    border: solid gray 1px;
+    margin-left: 5px;
+    color: white; 
+}
+button.button-12Fmur.enabled-9OeuTA.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.grow-2sR_-F:hover{
+    background-color: white; 
+    color: black; 
+}
+.content-1Tgc42 { /* VC内のユーザー */
+    border-radius: 0;
+}
+.listDefault-2F-w65 .clickable-1ctZ-H:hover .content-1Tgc42 {
+    border: white solid 1px; 
+    background: transparent; 
+}
+.selected-1oxcpH .content-1Tgc42{
+    background-color: white !important; 
+}
+.selected-1oxcpH .content-1Tgc42 *{
+    color: black !important; 
+}
+.selected-1oxcpH .iconServer-GeSR0b{
+    background-color: red; 
+}
+.selected-1oxcpH .iconServer-GeSR0b *{
+    color: white !important;     
+}
+.childWrapper-1j_1ub { /* 左上のDiscordマーク */
+    background-color: black; 
+    color: white; 
+}
+.childWrapper-1j_1ub:hover{
+    background-color: white !important; 
+    color: black !important; 
+}
