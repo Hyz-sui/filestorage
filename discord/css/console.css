@@ -274,3 +274,11 @@ button.button-12Fmur.enabled-9OeuTA.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6
     background-color: white !important; 
     color: black !important; 
 }
+.wrapper-1HIH0j { /* 埋め込みイベント */
+    border-radius: 0;
+    background: transparent;
+    border-right: #59ff14 solid 15px;
+    border-bottom: #59ff14 solid 5px;
+    border-top: gray solid 1px;
+    border-left: gray solid 1px;
+}
